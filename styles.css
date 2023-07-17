@@ -1,0 +1,103 @@
+body {
+    background-image: url('images/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header{
+    padding: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.display-area{
+    height: 480px;
+    font-family: 'Roboto Condensed', sans-serif;
+    /* background-color: green; */
+    /* padding: 5px; */
+}
+
+.first-row, .second-row{
+    height: 245px;
+    /* background-color: yellow; */
+    /* padding: 10px; */
+}
+
+.cards{
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+    height: 480px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#second, #third, #fourth, #fifth, #sixth, #seventh{
+    /* background-color: brown; */
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8px);
+}
+
+#second, #fifth{
+    margin-left: 10px !important;
+}
+
+.input-group{
+    margin-top: 15px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    
+}
+
+#city0{
+    font-size: 35px;
+    font-weight: bold;
+    /* background-color: blue; */
+    position: relative;
+    top: 8px;
+    left: 188px;
+}
+
+#icon0{
+    position: relative;
+    left: 180px;
+}
+
+.details{
+    position: relative;
+    left: 220px;
+    top: 30px;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#date1, #date2, #date3, #date4, #date5, #date6{
+    font-weight: bold;
+    position: relative;
+    top: 20px;
+    left: 55px;
+}
+
+#icon1, #icon2, #icon3, #icon4, #icon5, #icon6{
+    position: relative;
+    top: 15px;
+    left: 7px;
+}
+
+#temp1, #temp2, #temp3, #temp4, #temp5, #temp6{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    top: 15px;
+}
+
+.details-others{
+    padding: 20px 10px;
+}

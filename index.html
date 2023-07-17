@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Weather</title>
+    <link rel="icon" href="images\clouded.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="bootstrap.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <div class="header text-center">
+            <h1>Weather App</h1>
+        </div>
+        <div class="container">
+            <div class="display-area row">
+                <div class="col-lg-6 cards">
+                    <div id="current">
+                        <div class="input-group mb-3">
+                            <input type="text" id="cityname" class="form-control" placeholder="Enter Your City">
+                            <button class="btn btn-secondary" type="button" onclick="getweather()">Search!</button>
+                        </div>
+                        <span id="icon0"></span>
+                        <span id="city0"></span><br>
+                        <div class='details'>
+                            <span>Temperature: </span><span id="temp0"></span><br>
+                            <span id="desc0"></span><br>
+                            <span>Humidity: </span><span id="humidity0"></span><span>&#37;</span><br>
+                            <span id="date0"></span><br>
+                        </div>
+                    </div>
+                </div>
+                <div class="other col-lg-6">
+                    <div class="row first-row">
+                        <div id="second" class="col">
+                            <span id="date1"></span><br>
+                            <span id="icon1"></span>
+                            <span id="temp1"></span><br>
+                            <div class="details-others">
+                                <span id="desc1"></span><br>
+                                <span>Humidity: </span><span id="humidity1"></span><span>&#37;</span>
+                            </div>
+                        </div>
+                        <div id="third" class="col">
+                            <span id="date2"></span><br>
+                            <span id="icon2"></span>
+                            <span id="temp2"></span><br>
+                            <div class="details-others">
+                                <span id="desc2"></span><br>
+                                <span>Humidity: </span><span id="humidity2"></span><span>&#37;</span>
+                            </div>
+                        </div>
+                        <div id="fourth" class="col">
+                            <span id="date3"></span><br>
+                            <span id="icon3"></span>
+                            <span id="temp3"></span><br>
+                            <div class="details-others">
+                                <span id="desc3"></span><br>
+                                <span>Humidity: </span><span id="humidity3"></span><span>&#37;</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row second-row">
+                        <div id="fifth" class="col">
+                            <span id="date4"></span><br>
+                            <span id="icon4"></span>
+                            <span id="temp4"></span><br>
+                            <div class="details-others">
+                                <span id="desc4"></span><br>
+                                <span>Humidity: </span><span id="humidity4"></span><span>&#37;</span>
+                            </div>
+                        </div>
+                        <div id="sixth" class="col">
+                            <span id="date5"></span><br>
+                            <span id="icon5"></span>
+                            <span id="temp5"></span><br>
+                            <div class="details-others">
+                                <span id="desc5"></span><br>
+                                <span>Humidity: </span><span id="humidity5"></span><span>&#37;</span>
+                            </div>
+                        </div>
+                        <div id="seventh" class="col">
+                            <span id="date6"></span><br>
+                            <span id="icon6"></span>
+                            <span id="temp6"></span><br>
+                            <div class="details-others">
+                                <span id="desc6"></span><br>
+                                <span>Humidity: </span><span id="humidity6"></span><span>&#37;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
